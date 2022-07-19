@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>json</title>
+    </head>
+    <body>
+        <div id="op1"></div>
+        <div id="op2"></div>
+        <script>
+
+            var myObj = {
+                "firstname":"Mike",
+                "lastname":"skevis",
+                "Age":30
+            }
+            console.log(myObj);
+            var op1 = document.getElementById("op1");
+            var op2 = document.getElementById("op2");
+            op1.innerHTML=myObj.firstname;
+            op2.innerHTML=myObj.lastname;
+        </script>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+<!--
+    Local Storage Values
+
+    1.Create an object
+    2.Stringify
+    3.Store to local storage
+    4.Retrieve from local storage
+    5.Parse it to an object
+    6.Output object value to html
+-->
+
+
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>JSON STRINGIFY AND PARSE</title>
+    </head>
+
+    <body>
+        <div id="op1"></div>
+        <script>
+            var output = document.getElementById("op1");
+
+            var obj = {
+                "name":"Rohan",
+                "total":100
+            }
+
+            var objStr = JSON.stringify(obj);
+
+            localStorage.setItem('myObj',objStr);
+            var objStr2 = localStorage.getItem('myObj');
+            var obj2 = JSON.parse(objStr2);
+            output.innerHTML=obj2.name;
+        </script>
+
+    </body>
+
+</html>

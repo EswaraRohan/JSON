@@ -1,0 +1,26 @@
+ // JS object
+ 
+ 
+ var car={
+                color:'red',
+                year:2010,
+                make:'corvette',
+                brand:'chevrolet',
+                price:50000
+            }
+
+
+// json object
+
+{ 
+    "name1": "value",
+    "name2": "value",
+    "name3": "value" 
+}
+
+              
+
+JSON has double quotes while JavaScript can use
+single or doubles
+JavaScript can include functions which is not
+available in JSON.

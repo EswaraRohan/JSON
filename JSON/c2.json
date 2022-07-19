@@ -1,0 +1,13 @@
+{
+    "obj":
+    [{"firstname":"John"},
+    {"lastname":"Smith"},
+    {"age":25},
+    {"Address":[{"StreetAddress":"21 2nd street"},{"city":"New York"},{"state":"Newark"},{"postal code":10021}]},
+    {"Phone Number":[{"type":"home"},{"number":2125554567}]},
+    {"gender":"male"}
+    ]
+}
+
+
+
